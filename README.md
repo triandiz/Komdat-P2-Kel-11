@@ -17,3 +17,17 @@ Berikut yang diperlukan server anda untuk menjalankan Porl.
    - Tokenizer PHP Extension
    - JSON PHP Extension
    - PHP curl extension
+
+## Konfigurasi
+Konfigurasi dan membuat tabel secara manual, dapat dilakukan dengan peintah perintah berikut (tidak disarankn)
+
+Salin resources/views/env.blade.php ke .env di direktori root dan perbarui nilainya dengan benar. Jangan lupa untuk memakai tanda kurung kurawal di .env baru yang dimiliki.
+
+Anda dapat menjalankan perintah artisan untuk membuat tabel yang diperlukan.
+
+<table>
+    <tbody>
+        <tr>
+            <td>php artisan migrate --force
+                php artisan geoip:update</td>
+        </tr>
