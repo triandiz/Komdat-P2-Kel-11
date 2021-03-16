@@ -23,7 +23,7 @@ Konfigurasi dan membuat tabel secara manual, dapat dilakukan dengan peintah peri
 
 Salin resources/views/env.blade.php ke .env di direktori root dan perbarui nilainya dengan benar. Jangan lupa untuk memakai tanda kurung kurawal di .env baru yang dimiliki.
 
-Anda dapat menjalankan perintah artisan untuk membuat tabel yang diperlukan.
+Anda dapat menjalankan perintah ```artisan``` untuk membuat tabel yang diperlukan.
 
 ```
 php artisan migrate --force
