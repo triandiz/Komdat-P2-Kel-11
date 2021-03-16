@@ -25,9 +25,7 @@ Salin resources/views/env.blade.php ke .env di direktori root dan perbarui nilai
 
 Anda dapat menjalankan perintah artisan untuk membuat tabel yang diperlukan.
 
-<table>
-    <tbody>
-        <tr>
-            <td>php artisan migrate --force
-            php artisan geoip:update<td/>
-        </tr>
+```
+php artisan migrate --force
+php artisan geoip:update
+```
