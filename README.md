@@ -28,6 +28,6 @@ Anda dapat menjalankan perintah artisan untuk membuat tabel yang diperlukan.
 <table>
     <tbody>
         <tr>
-            php artisan migrate --force
-            php artisan geoip:update
+            <td>php artisan migrate --force
+            php artisan geoip:update<td/>
         </tr>
