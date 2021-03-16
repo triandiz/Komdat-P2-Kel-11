@@ -1,9 +1,9 @@
 # Polr
 
-##Sekilas Tentang:
+## Sekilas Tentang:
 Polr adalah aplikasi web pemendek link atau tautan yang dapat di hosting dengan API yang kuat. Aplikasi ini berguna untuk mengedit link url agar link url tersebut dapat menjadi lebih pendek dan memudahkan para pengakses untuk membukanya. Porl sangat mudah digunakan dan mempunyai nuansa tema yang modern.
 
-##Instalasi
+## Instalasi
 Berikut yang diperlukan server anda untuk menjalankan Porl.
 - Apache, nginx, IIS, or lighttpd (Apache preferred)
 - PHP >= 5.5.9
