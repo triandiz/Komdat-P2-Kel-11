@@ -10,10 +10,10 @@ Berikut yang diperlukan server anda untuk menjalankan Porl.
 - MariaDB or MySQL >= 5.5, SQLite alternatively
 - composer
 - PHP requirements:
-   1. OpenSSL PHP Extension
-   2. PDO PHP Extension
-   3. PDO MySQL Driver (php5-mysql on Debian & Ubuntu, php5x-pdo_mysql on FreeBSD)
-   4. Mbstring PHP Extension
-   5. Tokenizer PHP Extension
-   6. JSON PHP Extension
-   7. PHP curl extension
+   - OpenSSL PHP Extension
+   - PDO PHP Extension
+   - PDO MySQL Driver (php5-mysql on Debian & Ubuntu, php5x-pdo_mysql on FreeBSD)
+   - Mbstring PHP Extension
+   - Tokenizer PHP Extension
+   - JSON PHP Extension
+   - PHP curl extension
