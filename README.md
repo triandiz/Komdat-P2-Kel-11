@@ -61,7 +61,6 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
   
 - Langkah 4: Penyiapan situs
 
-## Konfigurasi
 Setelah memasukkan judul situs Anda, Anda perlu membuat akun pengguna untuk Pagekit. Pengguna ini akan memiliki akses admin dan dapat masuk ke panel kontrol Pagekit, setelah penginstalan selesai.
 
  <table>
@@ -90,3 +89,5 @@ Setelah memasukkan judul situs Anda, Anda perlu membuat akun pengguna untuk Page
     </table>
     
 Setelah penginstalan berhasil, Anda akan diarahkan ke layar login. Anda dapat masuk ke panel admin Pagekit dengan akun yang Anda buat. Jika Anda ingin masuk ke area admin di masa mendatang, Anda selalu dapat mencapai layar login dengan menambahkan ```/ admin``` ke URL situs Anda.
+
+## Konfigurasi
