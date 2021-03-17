@@ -1,22 +1,15 @@
-# Polr
+# Pagekit
 
 ## Sekilas Tentang:
-Polr adalah aplikasi web pemendek link atau tautan yang dapat di hosting dengan API yang kuat. Aplikasi ini berguna untuk mengedit link url agar link url tersebut dapat menjadi lebih pendek dan memudahkan para pengakses untuk membukanya. Porl sangat mudah digunakan dan mempunyai nuansa tema yang modern.
+Pagekit adalah aplikasi yang digunakan untuk mempermudah para penggunanya dalam membangun web baru. Pagekit sendiri memiliki beragam fitur yang bisa anda gunakan seperti membuat tampilan halaman baru untuk membuat blog dan personalisasi web. Aplikasi yang dibuat oleh @yoohotheme ini dibangun dengan teknologi modern dengan CMS modular dan ringan.
 
 ## Instalasi
-Berikut yang diperlukan server anda untuk menjalankan Porl.
-- Apache, nginx, IIS, or lighttpd (Apache preferred)
-- PHP >= 5.5.9
-- MariaDB or MySQL >= 5.5, SQLite alternatively
-- composer
-- PHP requirements:
-   - OpenSSL PHP Extension
-   - PDO PHP Extension
-   - PDO MySQL Driver (php5-mysql on Debian & Ubuntu, php5x-pdo_mysql on FreeBSD)
-   - Mbstring PHP Extension
-   - Tokenizer PHP Extension
-   - JSON PHP Extension
-   - PHP curl extension
+Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa menit.
+
+   -Langkah 1: Unduh dan buka Penginstal
+   -Langkah 2: Bahasa
+   -Langkah 3: Database
+   -Langkah 4: Penyiapan situs
 
 ## Konfigurasi
 Konfigurasi dan membuat tabel secara manual, dapat dilakukan dengan peintah perintah berikut (tidak disarankn)
