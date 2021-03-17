@@ -102,9 +102,11 @@ Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan 
 <table>
     <tbody>
       <tr>
-        'database' => [
-          'default' => 'sqlite',     // default database connection
-          'connections' => [         // array of database connections
+        <td>
+          'database' => [
+            'default' => 'sqlite',     // default database connection
+            'connections' => [         // array of database connections
+          </td>
       </tr>
     </tbody>
 </table>
