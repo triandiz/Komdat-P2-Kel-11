@@ -89,4 +89,4 @@ Setelah memasukkan judul situs Anda, Anda perlu membuat akun pengguna untuk Page
       </tbody>
     </table>
     
-Setelah penginstalan berhasil, Anda akan diarahkan ke layar login. Anda dapat masuk ke panel admin Pagekit dengan akun yang Anda buat. Jika Anda ingin masuk ke area admin di masa mendatang, Anda selalu dapat mencapai layar login dengan menambahkan / admin ke URL situs Anda.
+Setelah penginstalan berhasil, Anda akan diarahkan ke layar login. Anda dapat masuk ke panel admin Pagekit dengan akun yang Anda buat. Jika Anda ingin masuk ke area admin di masa mendatang, Anda selalu dapat mencapai layar login dengan menambahkan ```/ admin``` ke URL situs Anda.
