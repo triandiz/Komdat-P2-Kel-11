@@ -58,8 +58,35 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
     </table>
 
   CATATAN Pagekit akan mencoba membuat database selama instalasi. Anda juga dapat melakukan ini sendiri menggunakan alat seperti phpMyAdmin. Jangan ragu untuk menggunakan database yang sudah ada. Pagekit mengawali tabelnya untuk menghindari konflik.
- 
- 
+  
 - Langkah 4: Penyiapan situs
 
 ## Konfigurasi
+Setelah memasukkan judul situs Anda, Anda perlu membuat akun pengguna untuk Pagekit. Pengguna ini akan memiliki akses admin dan dapat masuk ke panel kontrol Pagekit, setelah penginstalan selesai.
+
+ <table>
+    <tbody>
+        <tr>
+            <td>BIDANG</td>
+            <td>DESKRIPSI</td>
+        </tr>
+        <tr>
+            <td>Site Title</td>
+            <td colspan=3 style="text-align:center">Judul site tersebut</td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td colspan=3 style="text-align:center">Masukkan username admin </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td colspan=3 style="text-align:center">Masukkan password admin</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan=3 style="text-align:center">Masukkan email admin</td>
+        </tr>
+      </tbody>
+    </table>
+    
+Setelah penginstalan berhasil, Anda akan diarahkan ke layar login. Anda dapat masuk ke panel admin Pagekit dengan akun yang Anda buat. Jika Anda ingin masuk ke area admin di masa mendatang, Anda selalu dapat mencapai layar login dengan menambahkan / admin ke URL situs Anda.
