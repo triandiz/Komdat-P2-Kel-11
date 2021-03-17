@@ -7,7 +7,8 @@ Pagekit adalah aplikasi yang digunakan untuk mempermudah para penggunanya dalam 
 Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa menit.
 
 - Langkah 1: Unduh dan buka Penginstal
-  Pertama-tama, Anda perlu mengunduh paket Pagekit terbaru dan mengekstrak isinya ke server web Anda - baik ke direktori root web atau ke subfolder, misalnya / pagekit.
+  
+  Pertama-tama, Anda perlu mengunduh paket Pagekit terbaru dan mengekstrak isinya ke server web Anda, anda bisa mengekstraknya ke direktori root web atau ke subfolder, contoh ```/pagekit```.
 
 - Langkah 2: Bahasa
 - Langkah 3: Database
