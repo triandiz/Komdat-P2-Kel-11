@@ -25,3 +25,9 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
 - Langkah 4: Penyiapan situs
 
 ## Konfigurasi
+
+## Instalasi
+Requirement :
+1. Install Apache 2.4.46
+2. Install PHP Versi 7.3.27
+3. 
