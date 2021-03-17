@@ -27,7 +27,7 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
   <table>
     <tbody>
         <tr>
-            <td>BIDANG System</td>
+            <td>BIDANG</td>
             <td>DESKRIPSI</td>
         </tr>
         <tr>
@@ -54,10 +54,11 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
             <td>Table Prefix</td>
             <td colspan=3 style="text-align:center">Anda dapat mengubah prefiks yang digunakan untuk tabel database. Awalan default adalah pk_.</td>
         </tr>
-    </tbody>
-</table>
+      </tbody>
+    </table>
 
   CATATAN Pagekit akan mencoba membuat database selama instalasi. Anda juga dapat melakukan ini sendiri menggunakan alat seperti phpMyAdmin. Jangan ragu untuk menggunakan database yang sudah ada. Pagekit mengawali tabelnya untuk menghindari konflik.
+ 
  
 - Langkah 4: Penyiapan situs
 
