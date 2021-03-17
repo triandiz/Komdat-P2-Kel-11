@@ -9,19 +9,19 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
 - Langkah 1: Unduh dan buka Penginstal
   
   Pertama-tama, Anda perlu mengunduh paket Pagekit terbaru dan mengekstrak isinya ke server web Anda, anda bisa mengekstraknya ke direktori root web atau ke subfolder, contoh ```/pagekit```.
+  
+  NOTE: jika anda mengekstrak paket secara lokal sebelum mengunggah pastikan bahwa sertakan file ```.htaccess``` yang tersembunyi.
+  
+  Lalu open browser yang tadi sudah di ekstrak, lalu itulah tampilan pertama dari penginstalan web dan anda harus melihatnya.
 
 - Langkah 2: Bahasa
+
+  Selanjutnya anda harus memilih bahasa utama untuk situs tersebut. Ini akan menjadi bahasa default yang digunakan di panel admin dan frontend. Namun bahasa ini dapat diubah kapan saja.
+
 - Langkah 3: Database
+
+  Pada langkah ini anda diharuskn untuk menyambungkannya ke database. Secara default, Pagekit menggunakan SQLite untuk menyimpan data situs anda.  Di sini Anda perlu mengisi kolom Nama Database dan Awalan Tabel. Awalan default tabel adalah ```pk_```.
+
 - Langkah 4: Penyiapan situs
 
 ## Konfigurasi
-Konfigurasi dan membuat tabel secara manual, dapat dilakukan dengan peintah perintah berikut (tidak disarankn)
-
-Salin ```resources/views/env.blade.php``` ke ```.env``` di direktori root dan perbarui nilainya dengan benar. Jangan lupa untuk memakai tanda kurung kurawal di ```.env``` baru yang dimiliki.
-
-Anda dapat menjalankan perintah ```artisan``` untuk membuat tabel yang diperlukan.
-
-```
-php artisan migrate --force
-php artisan geoip:update
-```
