@@ -27,7 +27,7 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
   <table>
     <tbody>
         <tr>
-            <td> ```BIDANG``` System</td>
+            <td>BIDANG System</td>
             <td>DESKRIPSI</td>
         </tr>
         <tr>
@@ -36,7 +36,7 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
         </tr>
         <tr>
             <td>Hostname</td>
-            <td colspan=3 style="text-align:center">Masukkan host name dari database server kalian. Jika data base dan web server berada pada mesin yang sama, berarti berada pada ```localhost``` atau ```127.0.0.1```. </td>
+            <td colspan=3 style="text-align:center">Masukkan host name dari database server kalian. Jika data base dan web server berada pada mesin yang sama, berarti berada pada localhost atau 127.0.0.1. </td>
         </tr>
         <tr>
             <td>User</td>
@@ -52,13 +52,13 @@ Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa 
         </tr>
       <tr>
             <td>Table Prefix</td>
-            <td colspan=3 style="text-align:center">Anda dapat mengubah prefiks yang digunakan untuk tabel database. Awalan default adalah ```pk_```.</td>
+            <td colspan=3 style="text-align:center">Anda dapat mengubah prefiks yang digunakan untuk tabel database. Awalan default adalah pk_.</td>
         </tr>
     </tbody>
 </table>
 
   CATATAN Pagekit akan mencoba membuat database selama instalasi. Anda juga dapat melakukan ini sendiri menggunakan alat seperti phpMyAdmin. Jangan ragu untuk menggunakan database yang sudah ada. Pagekit mengawali tabelnya untuk menghindari konflik.
-  
+ 
 - Langkah 4: Penyiapan situs
 
 ## Konfigurasi
