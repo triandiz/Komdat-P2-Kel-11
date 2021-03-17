@@ -99,9 +99,38 @@ Terkadang mengedit file ini secara manual masih diperlukan dan bermanfaat, conto
 
 Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan kedua contoh untuk menunjukkan cara kerja konfigurasi untuk driver database yang berbeda. Hanya koneksi ```default``` yang akan digunakan oleh Pagekit (dalam contoh ini digunakan ```sqlite```).
 
-<table>
-     <td>BIDANG
-          test
-          test
-     </td>
-</table>
+'database' => [
+  'default' => 'sqlite',     // default database connection
+  'connections' => [         // array of database connections
+    'sqlite' => [            // database driver name, here: sqlite
+      'prefix' => 'pk_',     // prefix in front of every table
+    ],
+    'mysql' => [             // database driver name, here: mysql
+      'host' => 'localhost', // server host name
+      'user' => 'user',      // server user name
+      'password' => 'pass',  // server user password
+      'dbname' => 'pagekit', // database name
+      'prefix' => 'pk_'      // prefix in front of every table
+    ],
+  ]
+],
+'system' => [
+  'secret' => 'secret'       // a secret string generated during installation
+],
+'system/cache' => [
+  'caches' => [
+    'cache' => [
+      'storage' => 'auto'    // the cache method to be used, if enabled
+    ]
+  ],
+  'nocache' => false         // the cache state - disable entirely by setting to true
+],
+'system/finder' => [
+  'storage' => '/storage'    // relative path to a folder used for uploads, cache etc.
+],
+'application' => [
+  'debug' => false           // debug mode state, enable while developing to get debug output
+],
+'debug' => [
+  'enabled' => false         // debug toolbar state, enable to get information, about requests, routes etc.
+]
