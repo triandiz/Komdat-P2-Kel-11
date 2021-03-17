@@ -100,13 +100,5 @@ Terkadang mengedit file ini secara manual masih diperlukan dan bermanfaat, conto
 Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan kedua contoh untuk menunjukkan cara kerja konfigurasi untuk driver database yang berbeda. Hanya koneksi ```default``` yang akan digunakan oleh Pagekit (dalam contoh ini digunakan ```sqlite```).
 
 <table>
-    <tbody>
-      <tr>
-        <td>
-          'database' => [
-            'default' => 'sqlite',     // default database connection
-            'connections' => [         // array of database connections
-          </td>
-      </tr>
-    </tbody>
+    hfbjwnem,
 </table>
