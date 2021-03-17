@@ -6,10 +6,10 @@ Pagekit adalah aplikasi yang digunakan untuk mempermudah para penggunanya dalam 
 ## Instalasi
 Proses instalasi Pagekit cepat dan mudah serta hanya membutuhkan waktu beberapa menit.
 
-  -Langkah 1: Unduh dan buka Penginstal
-  -Langkah 2: Bahasa
-  -Langkah 3: Database
-  -Langkah 4: Penyiapan situs
+-Langkah 1: Unduh dan buka Penginstal
+-Langkah 2: Bahasa
+-Langkah 3: Database
+-Langkah 4: Penyiapan situs
 
 ## Konfigurasi
 Konfigurasi dan membuat tabel secara manual, dapat dilakukan dengan peintah perintah berikut (tidak disarankn)
