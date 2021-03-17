@@ -101,6 +101,7 @@ Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan 
 
 <table>
     <tbody>
+      <tr>
       'database' => [
   'default' => 'sqlite',     // default database connection
   'connections' => [         // array of database connections
@@ -136,5 +137,6 @@ Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan 
 'debug' => [
   'enabled' => false         // debug toolbar state, enable to get information, about requests, routes etc.
 ]
+        </tr>
       </tbody>
     </table>
