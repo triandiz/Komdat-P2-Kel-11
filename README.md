@@ -91,3 +91,50 @@ Setelah memasukkan judul situs Anda, Anda perlu membuat akun pengguna untuk Page
 Setelah penginstalan berhasil, Anda akan diarahkan ke layar login. Anda dapat masuk ke panel admin Pagekit dengan akun yang Anda buat. Jika Anda ingin masuk ke area admin di masa mendatang, Anda selalu dapat mencapai layar login dengan menambahkan ```/ admin``` ke URL situs Anda.
 
 ## Konfigurasi
+Untuk file konfigurasi dari Pagekit sendiri file konfigurasi sudah akan terbuat saat anda menginstall. Jika anda ingin mengubah konfigurasi dengan pengaturan manual, artikel ini menjelaskan sintaks dan konten file.
+
+Biasanya, Anda tidak perlu mengutak-atik file konfigurasi ```config.php``` setelah dibuat oleh penginstal. Cara normal untuk mengubah konfigurasi adalah melalui ```System> Settings``` di panel admin Pagekit.
+
+Terkadang mengedit file ini secara manual masih diperlukan dan bermanfaat, contohnya pada saat memecahkan masalah penginstalan yang rusak atau saat memindahkan penginstalan Pagekit yang ada ke server baru. Dalam daftar kode berikut Anda melihat contoh konfigurasi dengan pengaturan yang paling umum.
+
+Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan kedua contoh untuk menunjukkan cara kerja konfigurasi untuk driver database yang berbeda. Hanya koneksi ```default``` yang akan digunakan oleh Pagekit (dalam contoh ini digunakan ```sqlite```).
+
+<table>
+    <tbody>
+      'database' => [
+  'default' => 'sqlite',     // default database connection
+  'connections' => [         // array of database connections
+    'sqlite' => [            // database driver name, here: sqlite
+      'prefix' => 'pk_',     // prefix in front of every table
+    ],
+    'mysql' => [             // database driver name, here: mysql
+      'host' => 'localhost', // server host name
+      'user' => 'user',      // server user name
+      'password' => 'pass',  // server user password
+      'dbname' => 'pagekit', // database name
+      'prefix' => 'pk_'      // prefix in front of every table
+    ],
+  ]
+],
+'system' => [
+  'secret' => 'secret'       // a secret string generated during installation
+],
+'system/cache' => [
+  'caches' => [
+    'cache' => [
+      'storage' => 'auto'    // the cache method to be used, if enabled
+    ]
+  ],
+  'nocache' => false         // the cache state - disable entirely by setting to true
+],
+'system/finder' => [
+  'storage' => '/storage'    // relative path to a folder used for uploads, cache etc.
+],
+'application' => [
+  'debug' => false           // debug mode state, enable while developing to get debug output
+],
+'debug' => [
+  'enabled' => false         // debug toolbar state, enable to get information, about requests, routes etc.
+]
+      </tbody>
+    </table>
