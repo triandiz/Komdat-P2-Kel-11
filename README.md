@@ -137,3 +137,14 @@ Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan 
 'debug' => [
   'enabled' => false         // debug toolbar state, enable to get information, about requests, routes etc.
 ]
+
+```php
+// Contoh string dengan kutip tunggal.
+echo 'Aku string dengan kutip tunggal!';
+
+// Contoh string dengan kutip ganda.
+echo "Aku string dengan kutip ganda!";
+
+// Tanpa kutip akan menghasilkan syntax error.
+echo Aku pasti error;
+```
