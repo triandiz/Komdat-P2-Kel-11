@@ -99,6 +99,7 @@ Terkadang mengedit file ini secara manual masih diperlukan dan bermanfaat, conto
 
 Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan kedua contoh untuk menunjukkan cara kerja konfigurasi untuk driver database yang berbeda. Hanya koneksi ```default``` yang akan digunakan oleh Pagekit (dalam contoh ini digunakan ```sqlite```).
 
+```php
 'database' => [
   'default' => 'sqlite',     // default database connection
   
@@ -138,13 +139,4 @@ Biasanya Anda hanya memiliki satu koneksi database. Contoh tersebut menyertakan 
   'enabled' => false         // debug toolbar state, enable to get information, about requests, routes etc.
 ]
 
-```php
-// Contoh string dengan kutip tunggal.
-echo 'Aku string dengan kutip tunggal!';
-
-// Contoh string dengan kutip ganda.
-echo "Aku string dengan kutip ganda!";
-
-// Tanpa kutip akan menghasilkan syntax error.
-echo Aku pasti error;
 ```
